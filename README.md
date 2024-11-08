@@ -1,7 +1,7 @@
 
-Project Name: User Authentication API
+# Project Name: User Authentication API
 
-Overview:
+## Overview:
 
 An authentication API is a backend service that manages user access and security across applications. Its primary functions include user registration, login, and access control.
 
@@ -9,11 +9,11 @@ When a user registers, the API securely stores their credentials (e.g., hashed p
 
 By using tokens, the API provides a secure, scalable method for managing user sessions. This is essential for both web and mobile applications that require user accounts, secure access, and personalized content.
 
-Language/Framework:
+### Language/Framework:
 
 	•	Python (Flask)
 
-Estimated Features:
+### Estimated Features:
 
 	1.	User Registration
 	2.	User Login
