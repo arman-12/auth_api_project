@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>User Authentication System</h1>
+    <a href="{{ url_for('controllers.show_register_form') }}">Register</a><br>
+    <a href="{{ url_for('controllers.show_login_form') }}">Login</a>
+</body>
+</html>

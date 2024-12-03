@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <h1>Login</h1>
-    <form method="POST">
+    <form method="POST" action="{{ url_for('controllers.login_user') }}">
         <label>Email:</label><br>
         <input type="email" name="email" required><br>
         <label>Password:</label><br>
         <input type="password" name="password" required><br><br>
         <button type="submit">Login</button>
     </form>
-    <a href="/">Go Back</a>
+    <a href="{{ url_for('controllers.show_register_form') }}">Don't have an account? Register</a>
 </body>
 </html>
